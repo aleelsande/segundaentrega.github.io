@@ -1,0 +1,188 @@
+.carousel-item img{
+    object-fit: cover;
+    height: 500px;
+    margin-bottom: 5px;
+}
+
+/*tarjetas*/
+ .card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.5s;
+    width: 100%;
+    height: 300px;
+    gap: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px #1d5706 solid;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    line-height: 5px;
+ }
+ .card img{
+    width: 100%;
+    overflow: hidden;
+ }
+ .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(1.08);
+    
+}
+.card img{ 
+    width: 100%;
+    height: 60%;
+}
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 25px;
+}
+/*botones del costado*/
+.botonwpp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.botontel {
+    position: fixed;
+    bottom: 85px;
+    right: 20px;
+}
+
+.botoninsta {
+    position: fixed;
+    bottom: 152px;
+    right: 20px;
+}
+
+.botonface {
+    position: fixed;
+    bottom: 218px;
+    right: 20px;
+}
+/*footer*/
+.footer {
+    background-color: #1d5706;
+    font-size: medium;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+}
+
+/*los h1*/
+h1 {
+    background-color: #1d570644;
+    text-align: center;
+    font-size:x-large;
+}
+
+/*los h2*/
+h2 {
+    background-color: #1d570644;
+    text-align: center;
+    font-size:x-large;
+}
+
+/*caja somos*/
+.somos {
+    display: inline-block;
+}
+
+.somos_parrafo {
+    font-size: 30px;
+    margin: 10px;
+    margin-top: 1px;
+    color: aliceblue;
+    background-color: rgba(40, 78, 31, 0.534);
+
+}
+
+.somos_imagen {
+    width: 500px;
+    height: 500px;
+    float: left;
+    margin: 20px;
+}
+
+/*amoblamiento a medida*/
+.grid-gallery {
+    margin-top: 10px;
+    display: grid;
+    grid-auto-rows: 200px;
+    gap: 1rem;
+    grid-auto-flow: row dense;
+  }
+  
+  @media all and (min-width: 320px) {
+    .grid-gallery {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  
+  @media all and (min-width: 768px) {
+    .grid-gallery {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media all and (min-width: 1024px) {
+    .grid-gallery {
+      grid-template-columns: repeat(6, 1fr);
+    }
+  }
+  
+  .grid-gallery__item:nth-child(11n+1) {
+    grid-column: span 1;
+  }
+  
+  .grid-gallery__item:nth-child(11n+4) {
+    grid-column: span 2;
+    grid-row: span 1;
+  }
+  
+  .grid-gallery__item:nth-child(11n+6) {
+    grid-column: span 3;
+    grid-row: span 1;
+  }
+  
+  .grid-gallery__item:nth-child(11n+7) {
+    grid-column: span 1;
+    grid-row: span 2;
+  }
+  
+  .grid-gallery__item:nth-child(11n+8) {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+  
+  .grid-gallery__item:nth-child(11n+9) {
+    grid-row: span 3;
+  }
+  
+  .grid-gallery__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /*contacto*/
+ .formulario {
+    width: 500px;
+    margin: 30px;
+    background-color: #23550f09;
+ }
+ .formulario h3{
+    text-align: center;
+ }
+.mapa {
+    width: 500px;
+    margin: 30px;
+ }
