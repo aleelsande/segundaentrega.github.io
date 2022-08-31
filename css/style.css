@@ -175,7 +175,7 @@ h2 {
 
   /*contacto*/
  .formulario {
-    width: 500px;
+    width: 90%;
     margin: 30px;
     background-color: #23550f09;
  }
@@ -183,6 +183,6 @@ h2 {
     text-align: center;
  }
 .mapa {
-    width: 500px;
+    width: 90%;
     margin: 30px;
  }
