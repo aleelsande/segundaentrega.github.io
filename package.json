@@ -1,0 +1,22 @@
+{
+  "name": "segundaentrega.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", "scss":"node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleelsande/segundaentrega.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aleelsande/segundaentrega.github.io/issues"
+  },
+  "homepage": "https://github.com/aleelsande/segundaentrega.github.io#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
