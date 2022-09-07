@@ -1,3 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: arial; }
+
 .carousel-item img {
   object-fit: cover;
   height: 500px;
@@ -148,18 +154,6 @@ h2 {
   .formulario h3 {
     text-align: center; }
 
-
-  /*contacto*/
- .formulario {
-    width: 90%;
-    margin: 30px;
-    background-color: #23550f09;
- }
- .formulario h3{
-    text-align: center;
- }
 .mapa {
-    width: 90%;
-    margin: 30px;
- }
-
+  width: 90%;
+  margin: 5%; }
