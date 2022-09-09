@@ -1,3 +1,12 @@
+.div--uno {
+  background-color: #55acee; }
+
+.div--dos {
+  background-color: #3a5795; }
+
+.div--tres {
+  background-color: #C25E30; }
+
 * {
   padding: 0;
   margin: 0;
