@@ -1,3 +1,4 @@
+/*maps*/
 .div--uno {
   background-color: #55acee; }
 
@@ -6,6 +7,13 @@
 
 .div--tres {
   background-color: #C25E30; }
+
+/*mixin*/
+.div--cuatro {
+  height: 80px;
+  width: 80px;
+  background-color: green;
+  margin: 50px; }
 
 * {
   padding: 0;

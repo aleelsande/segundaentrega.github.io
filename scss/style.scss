@@ -3,7 +3,7 @@ $text-aling-titulos: center;
 $font-size-titulos: x-large;
 $font-family: arial;
 
-
+/*maps*/
 $colors: (
  uno: #55acee,
  dos:  #3a5795,
@@ -16,6 +16,17 @@ $colors: (
   }
 }
 
+/*mixin*/
+
+@mixin sizes($width, $height,$bg,$margin) {
+  height: $height;
+  width: $width;
+  background-color: $bg;
+  margin: $margin;
+}
+.div--cuatro {
+  @include sizes(80px, 80px,green,50px);
+}
 
 *{
   padding: 0;
