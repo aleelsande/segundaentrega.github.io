@@ -33,7 +33,8 @@
   width: 100%;
   height: 300px;
   gap: 15px;
-  margin: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   border-radius: 5px;
   overflow: hidden;
   border: 1px #1d5706 solid;
@@ -53,7 +54,7 @@
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   transform: scale(1.08); }
 
-.cardContainer {
+.cardrontainer {
   display: flex;
   flex-wrap: wrap;
   flex-flow: column wrap;
@@ -65,31 +66,8 @@
 /*botones del costado*/
 .botonwpp {
   position: fixed;
-  bottom: 20px;
+  bottom: 50px;
   right: 20px; }
-
-.botontel {
-  position: fixed;
-  bottom: 85px;
-  right: 20px; }
-
-.botoninsta {
-  position: fixed;
-  bottom: 152px;
-  right: 20px; }
-
-.botonface {
-  position: fixed;
-  bottom: 218px;
-  right: 20px; }
-
-/*footer*/
-.footer {
-  background-color: #1d5706;
-  font-size: medium;
-  color: aliceblue;
-  justify-content: center;
-  align-items: center; }
 
 /*los h1*/
 h1 {
@@ -108,10 +86,8 @@ h2 {
   display: inline-block; }
   .somos .somos_parrafo {
     font-size: 1.2em;
-    margin: 10px;
-    margin-top: 1px;
-    color: aliceblue;
-    background-color: rgba(15, 87, 1, 0.5); }
+    margin: 20px;
+    margin-top: 50px; }
   .somos .somos_imagen {
     width: 30%;
     float: left;
@@ -125,7 +101,7 @@ h2 {
   gap: 1rem;
   grid-auto-flow: row dense; }
 
-@media all and (min-width: 320px) {
+@media all and (min-width: 280px) {
   .grid-gallery {
     grid-template-columns: repeat(1, 1fr); }
   .card {
@@ -136,7 +112,7 @@ h2 {
   .grid-gallery {
     grid-template-columns: repeat(3, 1fr); }
   .card {
-    min-width: 13rem;
+    min-width: 15rem;
     max-width: 18rem; } }
 
 @media all and (min-width: 1024px) {
@@ -181,3 +157,9 @@ h2 {
 .mapa {
   width: 90%;
   margin: 5%; }
+
+footer .footer-payship-img {
+  margin: 2px; }
+
+footer .text-white {
+  text-decoration: none; }
