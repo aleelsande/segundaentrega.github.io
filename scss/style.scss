@@ -60,9 +60,11 @@ $bgcolor in $colors {
   flex-direction: column;
   line-height: 5px;
   object-fit: cover;
-  .card-img-top{
+
+  .card-img-top {
     object-fit: scale-down;
   }
+
   img {
     width: 100%;
     height: 60%;
@@ -125,10 +127,11 @@ h2 {
     float: left;
     margin: 20px;
   }
-.lista-somos{
-  margin-top: 25px;
-  
-}
+
+  .lista-somos {
+    margin-top: 25px;
+
+  }
 }
 
 /*amoblamiento a medida*/
@@ -150,6 +153,7 @@ h2 {
     max-width: 25rem;
   }
 }
+
 @media all and (min-width: 461px) {
   .grid-gallery {
     grid-template-columns: repeat(1, 1fr);
@@ -160,6 +164,7 @@ h2 {
     max-width: 15rem;
   }
 }
+
 @media all and (min-width: 768px) {
   .grid-gallery {
     grid-template-columns: repeat(3, 1fr);
@@ -176,6 +181,7 @@ h2 {
   .grid-gallery {
     grid-template-columns: repeat(6, 1fr);
   }
+
   .card {
     min-width: 15rem;
     max-width: 16rem;
@@ -220,26 +226,50 @@ h2 {
 /*contacto*/
 .formulario {
   width: 90%;
-  margin: 5%;
-  background-color: #23550f09;
+  margin-left: 5%;
+  margin-bottom: 1%;
+  background-color: #23550f2f;
+
 
   h3 {
     text-align: center;
+    font-size: $font-size-titulos;
+
   }
 }
+  .contacto {
+    margin-top: 15px;
 
-.mapa {
-  width: 90%;
-  margin: 5%;
-}
+    li {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
 
-footer {
-  .footer-payship-img {
-    margin: 2px;
+      a {
+        text-decoration: none;
+      }
+    }
   }
 
-  .text-white {
-    text-decoration: none;
+  .mapa {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
   }
 
-}
+  footer {
+    .footer-payship-img {
+      margin: 2px;
+    }
+
+    .text-white {
+      text-decoration: none;
+    }
+
+    .mapa-footer {
+      margin-top: 3%;
+      margin-bottom: 3%;
+    }
+  }
