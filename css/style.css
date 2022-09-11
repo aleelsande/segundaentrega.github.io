@@ -19,7 +19,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: arial; }
+  font-family: "Roboto", arial; }
 
 .carousel-item img {
   object-fit: cover;

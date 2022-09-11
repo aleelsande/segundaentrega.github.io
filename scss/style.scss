@@ -1,7 +1,7 @@
 $bg-titulos: #1d570644;
 $text-aling-titulos: center;
 $font-size-titulos: x-large;
-$font-family: arial;
+$font-family: 'Roboto', arial;
 
 /*maps*/
 $colors: (uno: #55acee,
@@ -33,6 +33,7 @@ $bgcolor in $colors {
   margin: 0;
   box-sizing: border-box;
   font-family: $font-family;
+
 }
 
 .carousel-item img {
