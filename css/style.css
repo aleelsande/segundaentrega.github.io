@@ -92,6 +92,8 @@ h2 {
     width: 30%;
     float: left;
     margin: 20px; }
+  .somos .lista-somos {
+    margin-top: 25px; }
 
 /*amoblamiento a medida*/
 .grid-gallery {
@@ -108,7 +110,7 @@ h2 {
     min-width: 13rem;
     max-width: 25rem; } }
 
-@media all and (min-width: 480px) {
+@media all and (min-width: 461px) {
   .grid-gallery {
     grid-template-columns: repeat(1, 1fr); }
   .card {
